@@ -1,6 +1,6 @@
 //desestructuracion de objetos y arreglos
 
-interface Producto{
+export interface Producto{
     desc:string;
     precio:number;
 }
@@ -26,7 +26,7 @@ const articulos1=[telefono,tablet];
 const IVAot=calculadoraIVA(articulos1);
 console.log(`IVA: ${IVAot}`);
 
-function calcularIVA2(productos:Producto[]):[number,number]{
+export function calcularIVA2(productos:Producto[]):[number,number]{
     let total=0;
     productos.forEach(({precio})=>{
         total+=precio;

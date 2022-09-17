@@ -1,5 +1,5 @@
 
-import { calcularIVA2,Producto } from "./temas-ts/05-desestructura-funcion";
+import { calcularIVA2, Producto } from "./05-desestructura-funcion";
 
 const tiendaProductos:Producto[]=[
     {
