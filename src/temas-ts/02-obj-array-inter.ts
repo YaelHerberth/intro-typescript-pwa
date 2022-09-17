@@ -1,6 +1,4 @@
 
-
-
 let nombres:string[]=['mario','dario','juan'];
 
 console.log(nombres);
@@ -30,4 +28,3 @@ const alumno:Alumno={
     email:'gmail.com',
     materias:['ingles']
 }
-    
