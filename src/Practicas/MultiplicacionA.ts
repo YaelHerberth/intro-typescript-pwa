@@ -5,7 +5,7 @@ import { Operacion } from "./MultiplicacionB";
 let operacion : Operacion;
 
 operacion=new Operacion();
-operacion.setNumber(1);
-operacion.SetNumber2(5)
+operacion.setNumber(8);
+operacion.SetNumber2(10)
 
 operacion.Calcular();
