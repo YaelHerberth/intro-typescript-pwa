@@ -3,12 +3,12 @@ export class Operacion{
     private numeroB : number;
     private total : number
 
-    public setNumber(x:number){
+    public setNumberA(x:number){
         this.numeroA=0;
         this.numeroA=x;
     }
 
-    public SetNumber2(y:number){
+    public SetNumberB(y:number){
         this.numeroB=0;
         this.numeroB=y;
     }
